@@ -11,6 +11,7 @@
   padding: 1px 10px;
   align-self: center;
   text-align: center;
+  letter-spacing: 2px;
 }
 .header {
   text-align: center;
@@ -21,4 +22,20 @@
 
   color: rgb(41, 10, 128);
   text-shadow: 2px 4px 2px rgb(32, 184, 218);
+}
+
+.time-container {
+  display: flex;
+  width: auto;
+}
+.time {
+  margin-right: 15px;
+  /* padding: 0 10px; */
+  /* width: 30px; */
+}
+.start {
+  color: rgb(30, 226, 30);
+}
+.reset {
+  /* colo ; */
 }
