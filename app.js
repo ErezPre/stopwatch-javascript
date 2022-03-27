@@ -1,4 +1,6 @@
 let counter = 0;
+counter = setInterval(updateTime, 10);
+// counter += 119 * 60 * 1000 + 55 * 1000;
 
 let running = false;
 const hours = document.querySelector(`.hours`);
@@ -9,7 +11,6 @@ const start = document.querySelector(`.start`);
 const reset = document.querySelector(`.reset`);
 const stoppingList = document.querySelector(`.stopping-list`);
 const timeContainer = document.querySelector(`.time-container`);
-// time.textContent = counter;
 
 start.addEventListener("click", startTime);
 reset.addEventListener("click", resetTime);
@@ -54,8 +55,6 @@ const secondsInMs = 1000;
 const centisecondsInMs = 10;
 
 function setTime() {
-  // counter = minutesInMs * 88000 + 757;
-
   hours.textContent = twoDigitNumString(Math.floor(counter / hoursInMs));
 
   minutes.textContent = twoDigitNumString(
@@ -72,5 +71,4 @@ function setTime() {
 }
 // formatTime(
 
-counter = setInterval(updateTime, 10);
 console.log(formatTime(2));
