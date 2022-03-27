@@ -75,6 +75,17 @@ function setTime() {
     Math.floor(counter / centisecondsInMs) % 100
   );
 }
-// formatTime(
 
-console.log(formatTime(2));
+const hexDigits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
+
+function changeColorRandom() {
+  let randomHexColor = "#";
+  for (let i = 0; i < 6; i++) {
+    randomHexColor += hexDigits[Math.floor(Math.random() * hexDigits.length)];
+  }
+  console.log(randomHexColor);
+  document.body.style.backgroundColor = randomHexColor;
+}
+
+const changeColor = document.querySelector(".change-color");
+changeColor.addEventListener("click", changeColorRandom);

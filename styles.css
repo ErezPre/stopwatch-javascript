@@ -82,4 +82,8 @@
 .change-color {
   margin: auto;
   color: orange;
+  padding: 10px;
+}
+body {
+  background-color: #5ad2a6;
 }
