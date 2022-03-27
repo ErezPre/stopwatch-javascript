@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="element stopwatch"><h1>Stopwatch</h1></div>
+    <div class="stopwatch-color">
+      <div class="element stopwatch"><h1>Stopwatch</h1></div>
+      <div class="element change-color">click to change background color</div>
+    </div>
     <div class="functionality">
       <div class="time-container element">
         <h1 class="time hours">00</h1>
@@ -24,10 +27,12 @@
         <div class="reset element">reset</div>
       </div>
     </div>
-    <div class="stopping-points element">
-      <h2>stopping points:</h2>
+    <div class="stopping">
+      <div class="stopping-points element">
+        <h2>stopping points:</h2>
+      </div>
+      <div class="stopping-list element"></div>
     </div>
-    <div class="stopping-list element"></div>
     <script src="app.js"></script>
   </body>
 </html>

@@ -22,7 +22,7 @@ function startTime() {
     start.textContent = `resume`;
     start.style.color = "rgb(30, 226, 30)";
 
-    stoppingList.innerHTML = `<div class="index-list">${stoppingPointCounter})</div> <div>${hours.textContent}:${minutes.textContent}:${seconds.textContent}.${centiseconds.textContent}</div> ${stoppingList.innerHTML}`;
+    stoppingList.innerHTML = `<div><span class='time-item'>${stoppingPointCounter})</span> ${hours.textContent}:${minutes.textContent}:${seconds.textContent}.${centiseconds.textContent}</div> ${stoppingList.innerHTML}`;
     stoppingPointCounter++;
   } else {
     running = true;
@@ -42,8 +42,12 @@ function resetTime() {
   start.textContent = `start`;
   start.style.color = "rgb(30, 226, 30)";
   counter = 0;
+  stoppingPointCounter = 1;
   setTime();
   stoppingList.innerHTML = ``;
+  // stoppingList.style.backgroundColor = "blue";
+  // stoppingList.style.width = "0";
+  // stoppingList.style.padding = "0";
 }
 function twoDigitNumString(num) {
   return num < 10 ? `0${num}` : `${num}`;

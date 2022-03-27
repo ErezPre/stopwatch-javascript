@@ -28,8 +28,9 @@
 .time-container {
   display: flex;
   width: 430px;
-  margin-left: 80vh;
-  margin-right: 10px;
+  margin-left: 75vh;
+  margin-top: 20px;
+  /* margin-right: 10px; */
 }
 .time {
   margin-right: 15px;
@@ -38,7 +39,7 @@
 }
 
 .functionality {
-  margin: auto;
+  margin-left: auto;
   display: flex;
 }
 .start-reset {
@@ -58,13 +59,27 @@
   margin: 20px auto;
 }
 .stopping-points {
-  margin: 10px auto;
+  margin: 10px;
   text-align: center;
 }
 .stopping-list {
-  margin: auto;
+  margin: 10px;
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
 }
 .index-list {
   color: yellow;
+}
+.stopping {
+  display: flex;
+}
+.time-item {
+  color: yellow;
+}
+.change-color {
+  margin: auto;
+  color: orange;
 }
