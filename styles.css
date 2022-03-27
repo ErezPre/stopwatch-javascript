@@ -4,13 +4,21 @@
   text-decoration: none;
   margin: 5px;
   border-radius: 10px;
-  background: linear-gradient(
-    0deg,
-    rgb(41, 10, 128) 0%,
-    rgb(32, 184, 218) 100%
-  );
-  color: cornsilk;
+  background: black;
+  color: rgb(243, 233, 193);
   font-family: Impact, Charcoal, sans-serif;
   text-transform: capitalize;
   padding: 1px 10px;
+  align-self: center;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  font-size: 80px;
+  font-family: "Arial Black", Gadget, sans-serif;
+
+  font-weight: bolder;
+
+  color: rgb(41, 10, 128);
+  text-shadow: 2px 4px 2px rgb(32, 184, 218);
 }
