@@ -1,0 +1,16 @@
+.element {
+  height: auto;
+  font-size: 200%;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 10px;
+  background: linear-gradient(
+    0deg,
+    rgb(41, 10, 128) 0%,
+    rgb(32, 184, 218) 100%
+  );
+  color: cornsilk;
+  font-family: Impact, Charcoal, sans-serif;
+  text-transform: capitalize;
+  padding: 1px 10px;
+}
