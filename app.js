@@ -1,6 +1,7 @@
 let counter = 0;
 counter = setInterval(updateTime, 10);
 // counter += 119 * 60 * 1000 + 55 * 1000;
+let stoppingPointCounter = 1;
 
 let running = false;
 const hours = document.querySelector(`.hours`);
@@ -21,7 +22,8 @@ function startTime() {
     start.textContent = `resume`;
     start.style.color = "rgb(30, 226, 30)";
 
-    stoppingList.innerHTML = `<div>${hours.textContent}:${minutes.textContent}:${seconds.textContent}.${centiseconds.textContent}</div> ${stoppingList.innerHTML}`;
+    stoppingList.innerHTML = `<div class="index-list">${stoppingPointCounter})</div> <div>${hours.textContent}:${minutes.textContent}:${seconds.textContent}.${centiseconds.textContent}</div> ${stoppingList.innerHTML}`;
+    stoppingPointCounter++;
   } else {
     running = true;
     start.textContent = `stop`;
