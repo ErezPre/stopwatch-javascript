@@ -113,10 +113,10 @@ body {
   .stopping {
     flex-wrap: wrap;
   }
-  .time-container {
+  /* .time-container {
     width: 100%;
   }
   body {
     width: 92%;
-  }
+  } */
 }
