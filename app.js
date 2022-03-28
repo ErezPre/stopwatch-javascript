@@ -83,7 +83,7 @@ function changeColorRandom() {
   for (let i = 0; i < 6; i++) {
     randomHexColor += hexDigits[Math.floor(Math.random() * hexDigits.length)];
   }
-  console.log(randomHexColor);
+
   document.body.style.backgroundColor = randomHexColor;
 }
 
