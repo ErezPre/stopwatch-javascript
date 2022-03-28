@@ -24,36 +24,43 @@
   color: rgb(41, 10, 128);
   text-shadow: 2px 4px 2px rgb(32, 184, 218);
 }
-
-.time-container {
+.functionality {
+  margin: auto auto;
   display: flex;
-  width: 430px;
-  margin-left: 72vh;
+  /* background-color: blue; */
+  width: 50%;
+}
+.time-container {
+  /* margin-left: 72vh; */
   margin-top: 20px;
+  display: flex;
+  /* width: 430px; */
   /* margin-right: 10px; */
 }
 .time {
-  margin-right: 15px;
+  margin-right: 5px;
   /* padding: 0 10px; */
-  /* width: 30px; */
+  width: 60px;
 }
-
-.functionality {
-  margin-left: auto;
-  display: flex;
+.centiseconds {
+  margin-right: 20px;
 }
 .start-reset {
   font-size: 150%;
+  margin-right: 10px;
 }
 .start {
   color: rgb(30, 226, 30);
   /* margin-bottom: 1; */
+  width: 200px;
 }
 .reset {
   color: blue;
+  width: 200px;
 }
 .start-reset {
   background-color: rgba(0, 0, 0, 0);
+  width: 200px;
 }
 .stopwatch {
   margin: 20px auto;
@@ -80,7 +87,7 @@
   color: yellow;
 }
 .change-color {
-  margin: auto;
+  margin: auto 30%;
   color: orange;
   padding: 10px;
 }
