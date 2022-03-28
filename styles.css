@@ -97,3 +97,19 @@ body {
 .btn {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+  .functionality {
+    flex-wrap: wrap;
+    /* width: 30%; */
+  }
+}
+@media only screen and (max-width: 700px) {
+  .functionality {
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .stopping {
+    flex-wrap: wrap;
+  }
+}
