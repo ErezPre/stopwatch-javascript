@@ -61,15 +61,13 @@ const secondsInMs = 1000;
 const centisecondsInMs = 10;
 
 function setTime() {
-  hours.textContent = twoDigitNumString(Math.floor(counter / hoursInMs));
+  hours.textContent = twoDigitNumString(Math.floor(counter / hoursInMs)) + ":";
 
-  minutes.textContent = twoDigitNumString(
-    Math.floor(counter / minutesInMs) % 60
-  );
+  minutes.textContent =
+    twoDigitNumString(Math.floor(counter / minutesInMs) % 60) + ":";
 
-  seconds.textContent = twoDigitNumString(
-    Math.floor(counter / secondsInMs) % 60
-  );
+  seconds.textContent =
+    twoDigitNumString(Math.floor(counter / secondsInMs) % 60) + ".";
 
   centiseconds.textContent = twoDigitNumString(
     Math.floor(counter / centisecondsInMs) % 100
