@@ -8,32 +8,35 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="element stopwatch"><h1>Stopwatch</h1></div>
-    <button class="element change-color btn">
-      click to change background color
-    </button>
-    <div class="functionality">
-      <div class="element time-container">
-        <h1 class="time hours">00</h1>
-        <h1 class="time">:</h1>
-        <h1 class="time minutes">00</h1>
-        <h1 class="time">:</h1>
-        <h1 class="time seconds">00</h1>
-        <h1 class="time">.</h1>
-        <h1 class="time centiseconds">00</h1>
+    <div class="container">
+      <div class="element stopwatch"><h1>Stopwatch</h1></div>
+      <button class="element change-color btn">
+        click to change background color
+      </button>
+      <div class="functionality">
+        <div class="element time-container">
+          <h1 class="time hours">00</h1>
+          <h1 class="time">:</h1>
+          <h1 class="time minutes">00</h1>
+          <h1 class="time">:</h1>
+          <h1 class="time seconds">00</h1>
+          <h1 class="time">.</h1>
+          <h1 class="time centiseconds">00</h1>
+        </div>
+        <div class="start-reset element">
+          <button class="start element btn">start</button>
+          <br />
+          <button class="reset element btn">reset</button>
+        </div>
       </div>
-      <div class="start-reset element">
-        <button class="start element btn">start</button>
-        <br />
-        <button class="reset element btn">reset</button>
+      <div class="stopping">
+        <div class="stopping-points element">
+          <h2>stopping points:</h2>
+        </div>
+        <div class="stopping-list element"></div>
       </div>
+
+      <script src="app.js"></script>
     </div>
-    <div class="stopping">
-      <div class="stopping-points element">
-        <h2>stopping points:</h2>
-      </div>
-      <div class="stopping-list element"></div>
-    </div>
-    <script src="app.js"></script>
   </body>
 </html>

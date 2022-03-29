@@ -1,6 +1,9 @@
+.container {
+  text-align: center;
+}
 .element {
   height: auto;
-  width: fit-content;
+  width: min(90%, 400px);
   font-size: 200%;
   text-decoration: none;
   margin: 5px;
@@ -25,10 +28,12 @@
   text-shadow: 2px 4px 2px rgb(32, 184, 218);
 }
 .functionality {
-  margin: auto auto;
+  margin: auto;
+  justify-content: center;
   display: flex;
   /* background-color: blue; */
-  width: 50%;
+  /* width: 100px; */
+  text-align: center;
 }
 .time-container {
   /* margin-left: 72vh; */
@@ -65,12 +70,15 @@
 }
 .stopwatch {
   margin: 20px auto;
+  text-align: center;
 }
 .stopping-points {
   margin: 10px;
   text-align: center;
 }
 .stopping-list {
+  width: 90%;
+  height: max(170px, auto);
   margin: 10px;
   text-align: left;
   display: flex;
@@ -82,13 +90,15 @@
   color: yellow;
 }
 .stopping {
+  text-align: center;
+  justify-content: center;
   display: flex;
 }
 .time-item {
   color: yellow;
 }
 .change-color {
-  margin: auto 30%;
+  /* margin: auto 30%; */
   color: orange;
   padding: 10px;
 }
