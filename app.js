@@ -22,7 +22,7 @@ function startTime() {
     start.textContent = `resume`;
     start.style.color = "rgb(30, 226, 30)";
 
-    stoppingList.innerHTML = `<div><span class='time-item'>${stoppingPointCounter})</span> ${hours.textContent}:${minutes.textContent}:${seconds.textContent}.${centiseconds.textContent}</div> ${stoppingList.innerHTML}`;
+    stoppingList.innerHTML = `<div><span class='time-item'>${stoppingPointCounter})</span> ${hours.textContent}${minutes.textContent}${seconds.textContent}${centiseconds.textContent}</div> ${stoppingList.innerHTML}`;
     stoppingPointCounter++;
   } else {
     running = true;
