@@ -47,7 +47,7 @@
 .time {
   /* margin-right: 50px; */
   /* padding: 0 10px; */
-  width: 100px;
+  width: 100%;
   color: rgb(248, 207, 72);
 }
 .centiseconds {
